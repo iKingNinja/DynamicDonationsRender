@@ -7,7 +7,7 @@ This repository contains an ExpressJs server that creates dynamic developer prod
 - MySQL >= 8.0 [Download](https://dev.mysql.com/downloads/mysql/)
 
 ## Endpoints
-- **POST** /api/v1/donations/developer-products
+- **POST** /api/v1/donations/dev-products
 
 This endpoint creates developer products with data supplied by the client. when `coverTax` is `true`, the server will increase the price by 30% to cover the Roblox tax.
 
